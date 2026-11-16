@@ -1,0 +1,1 @@
+{ "name": "session-meter", "version": "0.1.0", "description": "Shows context fill, 5-hour and weekly limits, and cost at the bottom right of the prompt footer", "types": "./types/index.d.ts" }
