@@ -1,0 +1,5 @@
+{
+  "name": "claude-code-session-meter",
+  "owner": { "name": "Carmelo Polito" },
+  "plugins": [{ "name": "session-meter", "source": "./" }]
+}

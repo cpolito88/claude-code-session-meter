@@ -19,23 +19,28 @@ The 5-hour countdown ticks every minute, including between turns.
 
 ## Install
 
-1. Clone the repo:
+At the prompt of a Claude Code terminal session:
 
-   ```sh
-   git clone https://github.com/cpolito88/claude-code-session-meter.git ~/.claude/mods/session-meter
-   ```
+```
+/plugin install session-meter --marketplace cpolito88/claude-code-session-meter
+```
 
-2. Point Claude Code at it in `~/.claude/settings.json`:
+Answer `y` to add the marketplace, then pick a scope (user scope enables it in every session). The meter shows up right away, with no restart.
 
-   ```json
-   {
-     "env": {
-       "CLAUDE_CODE_PLUGIN_DIRS": "~/.claude/mods/session-meter"
-     }
-   }
-   ```
+From a shell:
 
-3. Restart Claude Code.
+```sh
+claude plugin install session-meter --marketplace cpolito88/claude-code-session-meter
+```
+
+In the desktop app: click **+** next to the prompt box → **Plugins** → **Add marketplace** with `cpolito88/claude-code-session-meter`, then **Add plugin**.
+
+### From a local clone (for development)
+
+```sh
+git clone https://github.com/cpolito88/claude-code-session-meter.git
+claude --plugin-dir ./claude-code-session-meter
+```
 
 ## How it works
 
