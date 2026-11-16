@@ -19,6 +19,8 @@ The 5-hour countdown ticks every minute, including between turns.
 
 ## Install
 
+Requires the Claude Code CLI; tested with 2.1.325.
+
 At the prompt of a Claude Code terminal session:
 
 ```

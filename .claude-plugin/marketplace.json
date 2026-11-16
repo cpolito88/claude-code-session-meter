@@ -1,5 +1,6 @@
 {
   "name": "claude-code-session-meter",
-  "owner": { "name": "Carmelo Polito" },
+  "description": "session-meter: context, 5-hour and weekly rate limits, and cost in the Claude Code prompt footer",
+  "owner": { "name": "Carmelo Polito", "url": "https://github.com/cpolito88" },
   "plugins": [{ "name": "session-meter", "source": "./" }]
 }
